@@ -21,7 +21,7 @@ public class JokeController {
         this.jokeService = jokeService;
     } // End JokeController()
 
-    @RequestMapping("/")
+    @RequestMapping({"/",""})
     public String getJoke(Model model) {
 
         // Adds joke attribute to the model
