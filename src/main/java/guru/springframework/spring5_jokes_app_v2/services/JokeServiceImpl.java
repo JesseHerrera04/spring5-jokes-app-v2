@@ -1,4 +1,4 @@
-package guru.springframework.services;
+package guru.springframework.spring5_jokes_app_v2.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Profile;

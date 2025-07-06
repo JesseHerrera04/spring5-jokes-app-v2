@@ -1,4 +1,4 @@
-package guru.springframework.services;
+package guru.springframework.spring5_jokes_app_v2.services;
 
 /**
  * Created on 07/05/2025 by Jesse H.
