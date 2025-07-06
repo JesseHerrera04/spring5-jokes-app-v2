@@ -17,8 +17,8 @@ public class JokeServiceImpl implements JokeService {
     /// Dependency Injection for Chuck Norris Quotes
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
-        this.chuckNorrisQuotes = chuckNorrisQuotes;
+    public JokeServiceImpl() {
+        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     } // End JokeServiceImpl()
 
     // Overridden method prints out Chuck Norris Quote as a joke
